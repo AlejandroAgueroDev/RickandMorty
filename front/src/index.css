@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    /* background: url('./assets/1330376.png') center center fixed; */
+    background-size: cover;
+  }
+
+  #myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1; /* Esto coloca el video detrás de otros elementos */
+}

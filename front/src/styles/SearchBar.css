@@ -1,0 +1,66 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Agregado para centrar horizontalmente */
+  position: fixed; /* Cambiado a posición fija */
+  top: 0; /* Fijado en la parte superior */
+  width: 100%; /* Ocupa el 100% del ancho */
+  background: rgba(255, 255, 255, 0.199); /* Fondo blanco para mayor visibilidad */
+  padding: 10px; /* Ajusta según tus necesidades */
+  z-index: 100; 
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  
+}
+
+.textInput {  
+  font-weight: 500;
+  font-size: 1.2vw;
+  color: #fff;
+  background: linear-gradient(
+    45deg,
+    transparent 3%,
+    #00f621 3%,
+    #00f621 5%,
+    #161515 5%,
+    #ff013c 100%
+  );
+  box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.8), 0 0 0 0.15vw transparent;
+  border-radius: 1.4vw 0 1.4vw 0;
+  border: none;
+  outline: none;
+  padding: 1.1vw;
+  max-width: 190px;
+  transition: 0.4s;
+}
+
+.textInput {  
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.textInputWrapper .textInput {  
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  padding: 11px; 
+
+}
+
+.select-option{
+  background-color: #ff013c;
+  border-radius: 1.4vw  1.4vw;
+  font-size: 1.3rem;
+  box-shadow: none;
+  border: none;
+  /* min-width: 10vh;
+  left: 43.6%;
+  justify-content: center;
+  position: relative; */
+}
+
+option{
+  font-size: 1.2rem;
+}
+

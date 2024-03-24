@@ -1,0 +1,7 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px; /* Ajusta según la altura de tu SearchBar */  
+  margin-left: 100px; /* Margen izquierdo */
+  gap: 50px;
+}

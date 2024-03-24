@@ -1,0 +1,60 @@
+.myAbout {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(3px);
+  perspective: 1000px;
+  border-radius: 20%;
+  border: 0px solid;
+}
+
+.title-about {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  font-size: 3em;
+  margin-top: 1em;
+}
+
+.p-about {
+  text-align: center;
+  font-family: "Megrim", cursive;
+  margin: 1.9em;
+  font-size: 2em;
+}
+
+
+/***************button***************/
+/* About.css */
+/* ... tus estilos existentes ... */
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db; /* Color de fondo para los botones */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el mouse */
+  }
+  
+  .instagram-button {
+    background-color: #e4405f; /* Color de fondo específico para Instagram */
+  }
+  
+  .github-button {
+    background-color: #333; /* Color de fondo específico para GitHub */
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
